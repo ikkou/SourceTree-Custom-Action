@@ -3,9 +3,9 @@ SourceTree-Custom-Action
 
 SourceTreeの`カスタム操作`のスクリプトファイルです。
 
-Windows版SourceTreeの説明書きになっているので、Macの方は適宜読み替えてください。
-
 ## はじめに
+
+Windows版SourceTreeの説明書きになっているので、Macの方は適宜読み替えてください。
 
 1. このリポジトリをクローンするか`Download ZIP`からZIPファイルをダウンロードしてください。
 2. SourceTreeを起動します。
@@ -17,15 +17,19 @@ Windows版SourceTreeの説明書きになっているので、Macの方は適宜
 8. `OK`ボタンをクリックして`カスタム操作`を登録します。
 9. 登録した`カスタム操作`は`操作`→`カスタム操作`から実行出来ます。
 
-## allow-empty-commit.bat
+## allow-empty-commit
 
 ### 内容
 
 通常CUIでしか実行出来ない空コミットを、GUIで実行可能にするWindows向けスクリプトです。
 
-### 対象
+### スクリプトファイル
 
-Windows
+Windows向け
+- allow-empty-commit.bat
+
+Mac向け
+- allow-empty-commit.sh
 
 ### パラメータ
 
